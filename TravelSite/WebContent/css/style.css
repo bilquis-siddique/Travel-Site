@@ -1,0 +1,61 @@
+
+
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+  SunSans-Regular, sans-serif;
+  color: #005073
+}
+
+h3 {
+  font-size: 28px;
+  /*font-family: "Courier New", Courier, monospace;*/
+  color: white
+}
+
+form {
+      text-align: center;
+      font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+      }
+body {
+      background-image: url("http://localhost:8080/TravelSite/images/background.png");
+
+      }
+
+
+/* button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+*/
+input[type="text"]
+{   padding:12px 30px;
+    background-color: rgba(255, 255, 255, 0.3);;
+    border: none;
+    border-radius: 5px;
+}
+input[type="password"]
+{   padding:12px 30px;
+    background-color: rgba(255, 255, 255, 0.3);;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+    text-align: center;
+}
+input[type=submit] {
+    padding:12px 79px;
+    background: white;
+    color: #66cc99;
+    border:0 none;
+    cursor:pointer;
+  /*  -webkit-border-radius: 5px;*/
+    border-radius: 5px;
+}
